@@ -1,0 +1,99 @@
+/* style.css */
+
+/* Sayfa Genel Stili */
+body {
+    background-color: #f3e5f5; /* Açık pembe arka plan */
+    color: #4A148C; /* Mor metin rengi */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Genel yazı tipi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stili */
+.header {
+    background-color: #6A1B9A; /* Mor arka plan rengi */
+    color: white; /* Beyaz metin rengi */
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navbar stilleri */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #4A148C; /* Koyu mor arka plan */
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Beyaz metin rengi */
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #D1C4E9; /* Açık mor arka plan */
+    color: #4A148C; /* Koyu mor metin rengi */
+}
+
+/* Content stilleri */
+.content {
+    background-color: #fff; /* Beyaz arka plan */
+    color: #4A148C; /* Mor metin rengi */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* Profil Bilgileri Stili */
+.profile-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #6A1B9A; /* Mor kenarlık */
+    border-radius: 10px;
+    background-color: #f3e5f5; /* Açık pembe arka plan */
+    color: #4A148C; /* Mor metin rengi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+    margin-bottom: 15px;
+}
+
+/* Profil Bilgileri Başlık Stili */
+.profile-info h2 {
+    color: #BA68C8; /* Açık mor renk */
+    border-bottom: 2px solid #BA68C8; /* Açık mor alt çizgi */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Profil Bilgileri Detay Stili */
+.profile-info p strong {
+    color: #4A148C; /* Mor metin rengi */
+}
+
+/* Footer stilleri */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6A1B9A; /* Mor arka plan rengi */
+    color: white; /* Beyaz metin rengi */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
